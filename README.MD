@@ -1,0 +1,3 @@
+![Timer](https://cdn.discordapp.com/attachments/314315831465213953/1235840362132803635/image.png?ex=6635d587&is=66348407&hm=91acbc3115aecda3ff84714ccecce8b70c09e126736ba6b369fd941abc26aae3&)
+
+The line `Obin's Computer: hey hey` is printed first because the `println!("Obin's Computer: hey hey");` statement is executed immediately in the main function, while the `println!("Obin's Computer: howdy!");` and `println!("Obin's Computer: done!");` statements are inside an asynchronous task that is spawned to run concurrently.
